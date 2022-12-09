@@ -1,0 +1,23 @@
+{
+  "name": "design-system",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-native": "^0.70.6"
+  },
+  "workspaces": {
+    "nohoist": [
+      "**"
+    ]
+  },
+  "private": "true",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "lodash.omit": "^4.5.0",
+    "native-base": "^3.4.25",
+    "react-native-safe-area-context": "3.3.2",
+    "react-native-svg": "12.1.1"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "monorepo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": "true",
+  "workspaces": {
+    "packages": [
+      "apps/basern",
+      "apps/basern2",
+      "packages/*"
+    ],
+    "nohoist": [
+      "**/react",
+      "**/react-dom",
+      "**/react-native",
+      "**/react-native/**",
+      "**/native-base",
+      "**/native-base/**",
+      "**/react-native-codegen",
+      "**/react-native-dev-menu",
+      "**/react-native-vector-icons",
+      "**/react-native-async-storage/async-storage"
+    ]
+  }
+}
