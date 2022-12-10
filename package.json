@@ -22,5 +22,8 @@
       "**/react-native-vector-icons",
       "**/react-native-async-storage/async-storage"
     ]
+  },
+  "devDependencies": {
+    "lerna": "^6.1.0"
   }
 }
